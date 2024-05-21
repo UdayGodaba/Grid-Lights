@@ -5,7 +5,14 @@ const GridLights = ({ grid }) => {
       {grid
         .flat(1)
         .map((val, idx) =>
-          val ? <button key={idx}></button> : <span key={idx}> </span>
+          val ? (
+            <button
+              key={idx}
+              className={`button ${true && "selected"}`}
+            ></button>
+          ) : (
+            <span key={idx}> </span>
+          )
         )}
     </div>
   );
