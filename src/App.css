@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   font-size: xx-large;
@@ -29,6 +29,27 @@ body {
   background-color: white;
 }
 
+.selector {
+  margin-top: 2%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2px;
+}
+
+.subtitle-1 {
+  margin-top: 8%;
+  font-size: large;
+  text-align: center;
+}
+
+.subtitle-2 {
+  margin-top: 2%;
+  font-size: medium;
+  text-align: center;
+  font-weight: 100;
+}
+
 .selected {
   background-color: greenyellow;
 }
@@ -38,6 +59,17 @@ body {
     margin-top: 15%;
   }
   .grid {
-    margin-top: 15%;
+    margin-top: 10%;
+  }
+  .selector {
+    margin-top: 5%;
+  }
+  .subtitle-1 {
+    margin-top: 10%;
+    font-size: medium;
+  }
+
+  .subtitle-2 {
+    font-size: small;
   }
 }
